@@ -19,6 +19,7 @@ import lombok.Setter;
 @Table(name = "alumno")
 @Getter
 @Setter
+
 public class Alumno {
 
 	@Id
@@ -30,7 +31,6 @@ public class Alumno {
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	@Temporal(TemporalType.DATE)
 	private Date fechaNacimiento;
-	
 	
 }
 
