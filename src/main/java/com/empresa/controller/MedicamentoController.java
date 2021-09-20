@@ -35,7 +35,6 @@ public class MedicamentoController {
 		return ResponseEntity.ok(lista);
 	}
 	
-	@CrossOrigin(origins = "http://localhost:4200")
 	@PostMapping
 	@ResponseBody
 	public ResponseEntity<Map<String, Object>> insertaMedicamento(@RequestBody Medicamento obj){
